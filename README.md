@@ -51,4 +51,21 @@ BがAの作ったリポジトリのあるURLを調べ、右上の方にある「
 Bがフォークによって作られたリポジトリのURLを自身のローカルリポジトリにクローンする。
 ```
 git clone [リモートリポジトリのURL].git
+cd [リポジトリ名]
 ```
+
+### 4: 作業ブランチでの開発
+手順を基にBは作業ブランチを作り開発を進める。
+```
+git branch develop # 適当なブランチ名
+git switch develop
+vi index.html # ファイルの編集
+git add index.html
+git commit -m "add index.html"
+git push origin develop
+```
+
+プッシュしたらGitHub上でプルリクエストを行う。
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170106" src="https://github.com/user-attachments/assets/1e1121a0-e067-4efa-810a-197beea2d6b8" />
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170114" src="https://github.com/user-attachments/assets/68e406bc-c8a8-40c8-876f-567e41b0253d" />
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170130" src="https://github.com/user-attachments/assets/33e6c94e-2771-474f-94aa-9746ea7fa963" />
