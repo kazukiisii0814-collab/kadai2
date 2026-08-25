@@ -47,4 +47,8 @@ BがAの作ったリポジトリのあるURLを調べ、右上の方にある「
 <img width="1920" height="1032" alt="スクリーンショット 2026-08-24 165635" src="https://github.com/user-attachments/assets/297234f5-50c2-4fbc-a2c5-235e8946c41f" />
 <img width="1920" height="1032" alt="スクリーンショット 2026-08-24 165648" src="https://github.com/user-attachments/assets/da397936-9c5f-4925-831c-99c2f12bfd96" />
 
-
+### 3: クローンの作成　
+Bがフォークによって作られたリポジトリのURLを自身のローカルリポジトリにクローンする。
+```
+git clone [リモートリポジトリのURL].git
+```
