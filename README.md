@@ -42,4 +42,9 @@ AがGitHub上にリモートリポジトリを作成する。今回はGitで作�
  git commit -m "first commit"
  gh repo create kadai2 --public --source=. --remote=origin --push
 ```
+### 2: フォークで複製
+BがAの作ったリポジトリのあるURLを調べ、右上の方にある「Fork」を押し、「Copy the main branch only」にチェックを入れた状態で、「Create fork」を押す。BのアカウントからAのリポジトリが開けていることがわかる。
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 165635" src="https://github.com/user-attachments/assets/297234f5-50c2-4fbc-a2c5-235e8946c41f" />
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 165648" src="https://github.com/user-attachments/assets/da397936-9c5f-4925-831c-99c2f12bfd96" />
+
 
