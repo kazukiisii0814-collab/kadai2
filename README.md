@@ -65,7 +65,15 @@ git commit -m "add index.html"
 git push origin develop
 ```
 
-プッシュしたらGitHub上でプルリクエストを行う。
+修正をしたらプッシュし、GitHub上で「Compare & pull request」を押し、「Create pull request」を押して、「Merge pull request」をしてAにリクエストを送る。
+
 <img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170106" src="https://github.com/user-attachments/assets/1e1121a0-e067-4efa-810a-197beea2d6b8" />
 <img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170114" src="https://github.com/user-attachments/assets/68e406bc-c8a8-40c8-876f-567e41b0253d" />
 <img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170130" src="https://github.com/user-attachments/assets/33e6c94e-2771-474f-94aa-9746ea7fa963" />
+
+AがGitHub上でBから送られたリクエストをレビューしマージする。
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170151" src="https://github.com/user-attachments/assets/af1b4929-ad78-457b-8ca6-a741c70cd1e1" />
+
+矢印から内容をレビューし問題がなければマージする。
+<img width="1920" height="1032" alt="スクリーンショット 2026-08-24 170233" src="https://github.com/user-attachments/assets/8794447b-9a68-44fd-92be-2d740342829c" />
+
